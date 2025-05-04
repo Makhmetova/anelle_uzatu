@@ -46,15 +46,14 @@
 		width: 100px;
 		height: 100px;
 		border-radius: 50%;
-		position: absolute;
-		left: 780px;
-		top: 400px;
 		font-size: 20px;
 		background:none;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		cursor: pointer;
+		margin-left: 57%;
+		margin-top: 50%;
 }
 .timer__item {
     position: relative;
@@ -110,7 +109,7 @@ body {
 /*	background: #4D792E;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transsparent;*/
-	margin-top: 510px !important; 
+/* 	margin-top: 510px !important;  */
 }
 
 .shaktext {
@@ -120,7 +119,7 @@ body {
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
-.blok-1 {
+.blok-0 {
 	background-image: url("fon-1.png");
 	background-position: center 0;
 	background-repeat: no-repeat;
@@ -418,9 +417,9 @@ input.inputname:focus {
 }
 
 @media (max-width: 454px) {
-	 .kurmetti {
+/* 	 .kurmetti {
 		margin-top: 480px!important;
-	} 
+	}  */
 	.blok-2 {
 	    background-size: 105%;
 	}
@@ -429,18 +428,18 @@ input.inputname:focus {
 
 @media (max-width: 420px) {
 
-	 .kurmetti {
+/* 	 .kurmetti {
 		margin-top: 460px!important;
-	} 
+	}  */
 
 
 }
 
 @media (max-width: 400px) {
 
-	 .kurmetti {
+/* 	 .kurmetti {
 		margin-top: 440px!important;
-	} 
+	}  */
 
 }
 
@@ -464,10 +463,10 @@ input.inputname:focus {
 		padding-bottom: 280px;
 	}
 
-	 .kurmetti {
+/* 	 .kurmetti {
 		margin-top: 415px!important;
 	} 
-
+ */
 }
 
 @media (max-width: 345px) {
