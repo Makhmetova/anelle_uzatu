@@ -96,7 +96,7 @@ body {
 /*	background: #4D792E;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transsparent;*/
-	/* margin-top: 510px !important; */
+	margin-top: 510px !important; 
 }
 
 .shaktext {
@@ -105,6 +105,12 @@ body {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 30px;
+}
+.blok-1 {
+	background-image: url("fon-1.png");
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .blok-2 {
@@ -398,9 +404,9 @@ input.inputname:focus {
 }
 
 @media (max-width: 454px) {
-	/* .kurmetti {
+	 .kurmetti {
 		margin-top: 480px!important;
-	} */
+	} 
 	.blok-2 {
 	    background-size: 105%;
 	}
@@ -409,18 +415,18 @@ input.inputname:focus {
 
 @media (max-width: 420px) {
 
-	/* .kurmetti {
+	 .kurmetti {
 		margin-top: 460px!important;
-	} */
+	} 
 
 
 }
 
 @media (max-width: 400px) {
 
-	/* .kurmetti {
+	 .kurmetti {
 		margin-top: 440px!important;
-	} */
+	} 
 
 }
 
@@ -444,9 +450,9 @@ input.inputname:focus {
 		padding-bottom: 280px;
 	}
 
-	/* .kurmetti {
+	 .kurmetti {
 		margin-top: 415px!important;
-	} */
+	} 
 
 }
 
@@ -455,10 +461,10 @@ input.inputname:focus {
 		background-position: center bottom;
 		background-size: cover;
 	}
-/* 
+
 	.kurmetti {
 		margin-top: 370px!important;
 		font-size: 26px;
-	} */
+	} 
 
 }
